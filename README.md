@@ -3,7 +3,7 @@
 Elasticsearch DSL 쿼리 중
 자주 쓰는 match + range 조합을 빠르게 만들 수 있게 CLI 도구
 
----
+
 
 ## 기능
 
@@ -11,7 +11,7 @@ Elasticsearch DSL 쿼리 중
 - 날짜 범위 입력 → range 쿼리 생성
 - 전체 쿼리는 bool.must로 묶어서 출력
 
----
+
 
 ## 실행 예시
 
@@ -43,11 +43,13 @@ $ ./gradlew run
   }
 }
 ```
-----
+
+
 ## 개발환경
 Java 17, Gradle, Gson
 
-----
+
+
 ## TODO
 - [] CLI 옵션 처리 (--field, --start, --end)
 - [] 결과 JSON 파일 저장
