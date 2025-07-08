@@ -51,6 +51,6 @@ Java 17, Gradle, Gson
 
 
 ## TODO
-- [] CLI 옵션 처리 (--field, --start, --end)
-- [] 결과 JSON 파일 저장
-- [] 쿼리 템플릿 확장 (filter, should 등)
+- [ ] CLI 옵션 처리 (--field, --start, --end)
+- [ ] 결과 JSON 파일 저장
+- [ ] 쿼리 템플릿 확장 (filter, should 등)
